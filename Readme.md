@@ -1,5 +1,3 @@
-##431W Database Tables##
+Welcome to Mitchell Hills's 431W Project: NHL Game Database Command Line Interface Program
 
-This folder contains the partial verions of the database tables used to implement this database project.
-Due to the size of some of the tables they had to be cut down in order to be uploaded to GitHub.
-The full database can be found here: https://www.kaggle.com/datasets/martinellis/nhl-game-data?select=team_info.csv
+This repository contains the python script that the user will use to interect with the NHL Game Database located in "431W Project Code.py". PostgreSQL and pgAdmin was used to implement the NHL Game Database where the data originally came from https://www.kaggle.com/datasets/martinellis/nhl-game-data?select=team_info.csv. The original data from Kaggle was cleansed, modified, and then reduced so that the data could be imported into pgAdmin and uploaded to GitHub. You can find all the database tables necessary to run the NHL Game Database Command Line Interface Program in the "Database Tables" folder.
