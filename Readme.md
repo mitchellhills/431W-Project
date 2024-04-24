@@ -4,5 +4,4 @@ This repository contains the python script that the user will use to interact wi
 
 Setup
 
-
 Running the NHL Game Database Command Line Interface 
