@@ -4,7 +4,7 @@ This repository contains the python script that the user will use to interact wi
 
 ## NHL Game Database Command Line Interface Program Setup ##
 
-Three separate software need to be downloaded in order for the correct execution on the program script:
+Three separate software need to be downloaded for the correct execution on the program script:
 
   1. PostgreSQL - this is the relational database system that is used to store and query the necessary data for the different functionalities. The latest version can be downloaded from here -> https://www.postgresql.org/
   2. pgAdmin - this is the administration and development platform used for PostgreSQL. This software should be installed along with PostgreSQL however, if this isn't the case the latest version can be downloaded from here -> https://www.pgadmin.org/. Upon downloading pgAdmin create a local server with a username = "postgres" and a password defined by user. The user defined password will have to be updated on line 21 in "431W Project Code.py" to work correctly. Once a local server has been created import all the CSV files located in the "Database Tables" folder. When defining the attributes for each table in pgAdmin, all column names ending in "_ID" are considered primary keys for that table and every attribute should be defined as NOT NULL.
